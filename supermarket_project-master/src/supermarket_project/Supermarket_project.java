@@ -4,6 +4,9 @@
  */
 package supermarket_project;
 
+import supermarket_project.helpers.Admin;
+import supermarket_project.helpers.Report;
+import supermarket_project.GUI.login;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
