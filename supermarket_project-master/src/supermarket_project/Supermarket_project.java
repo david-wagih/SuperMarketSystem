@@ -22,9 +22,11 @@ public class Supermarket_project {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.FileNotFoundException
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        // TODO code application logic here
+      
        login l=new login();
       // User u = new User(10, "ahmed", "said", 
              //  500, "admin",011,"ahh","aaa", "bbb");
