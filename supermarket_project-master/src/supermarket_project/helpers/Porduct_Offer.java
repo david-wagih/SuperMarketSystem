@@ -9,7 +9,7 @@ import java.util.*;
 //calcOffer();
 public class Porduct_Offer 
 {
-    private HashMap<Integer,Double> offers_list=new HashMap<Integer,Double>();
+    private HashMap<Integer,Double> offers_list=new HashMap<>();
     
     Porduct_Offer(){}
 

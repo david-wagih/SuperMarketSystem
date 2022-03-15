@@ -16,7 +16,7 @@ public class Payment
         
         i.settotalprice(0);
         
-        ArrayList<Integer> arr = new ArrayList<Integer>();
+        ArrayList<Integer> arr = new ArrayList<>();
         arr = i.getIds();
         
         for(int j =0; j<i.getSizeOfItemsList(); j++)

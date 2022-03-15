@@ -9,12 +9,12 @@ import java.io.*;
 
 public class Report implements Serializable
 {
-    private HashMap<Product,Integer> sales=new HashMap<Product,Integer>();
-    private HashMap<Integer, Invoice> invoices=new HashMap<Integer, Invoice>();
-    private ArrayList<Integer> ids=new ArrayList<Integer>();
-    public ArrayList<User> users=new ArrayList<User>();
-    private ArrayList<Order> orders=new ArrayList<Order>();
-    private ArrayList<Integer> ids_ord=new ArrayList<Integer>();
+    private HashMap<Product,Integer> sales=new HashMap<>();
+    private HashMap<Integer, Invoice> invoices=new HashMap<>();
+    private ArrayList<Integer> ids=new ArrayList<>();
+    public ArrayList<User> users=new ArrayList<>();
+    private ArrayList<Order> orders=new ArrayList<>();
+    private ArrayList<Integer> ids_ord=new ArrayList<>();
     
     
     public Report(){}

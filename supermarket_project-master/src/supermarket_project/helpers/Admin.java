@@ -47,8 +47,8 @@ public class Admin extends User implements Serializable
         u.setUser_department(department);
         u.setUser_phone(phone);
         
-        //craet mail
-//        u.setUser_mail(fname+"@market.com");
+        //create mail
+        //u.setUser_mail(fname+"@market.com");
         u.setUser_mail(fname);
         //generate pass
         int min = 1111 , max = 9999;

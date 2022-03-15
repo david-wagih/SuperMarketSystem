@@ -9,8 +9,8 @@ import java.util.*;
 
 public class Stock implements Serializable
 {
-    public HashMap<Integer,Product> stock_details_product_details=new HashMap<Integer,Product>();
-    public HashMap<Product, Integer> stock_qty_details=new HashMap<Product, Integer>();
+    public HashMap<Integer,Product> stock_details_product_details=new HashMap<>();
+    public HashMap<Product, Integer> stock_qty_details=new HashMap<>();
 
     public Stock(){}
     
